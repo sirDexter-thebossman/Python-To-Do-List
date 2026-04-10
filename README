@@ -1,0 +1,36 @@
+Best Wishes to whoever is reading this Project charter in the future.
+I am proud to declare such a massive project as this; It is such an honour to be able to deliver such a powerful project.
+This project's theme is on building and launching a To-Do-List App using Flask as the python framework or library.
+These are the general step-by-step process to achieve the roadmap:
+
+Step 1: Setup Project Structure
+- Create a new Flask project folder
+- Setup virtual environment and install dependencies like; Flask, Flask-SQLAlchemy, Flask-login.etc
+- Create a basic folder structure(app, templates, static,etc)
+
+Step 2: Configure Database
+- Choose database: SQLite or PostgreSQL
+- Install Flask-SQLAlchemy
+- Configure database connection in app.py
+- Define models for User and Task with fields like title, priority, due date.
+
+Step 3: Implement User Auth with Flask-Login
+- Install Flask-Login 
+- Setup User model with login methods
+- Create login, logout, and register routes + templates
+- Project routes with @login_required
+
+Step 4: Implement CRUD for Tasks
+- Create routes for adding, viewing, editing, deleting tasks
+- Create templates for task forms and lists
+- Use SQLAlchemy to save/retreive tasks linked to users
+
+Step 5: Add Features
+- Imlement task prioritization.e.g a dropdown menu in form
+- Add due dates + reminders. Use datetime, maybe integrate email.
+- Add validation and error handling
+
+Step 6: Test and Improve
+- Test auth + CRUD flows
+- Improve UI with CSS/Bootstrap
+- Deploy to Heroku or Render for sharing
